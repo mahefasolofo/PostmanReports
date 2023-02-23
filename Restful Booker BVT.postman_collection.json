@@ -1216,10 +1216,20 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": null,
-					"header": null,
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
 					"cookie": [],
-					"body": null
+					"body": "{\r\n    \"token\": \"e09363817a36fa5\"\r\n}"
 				},
 				{
 					"name": "Auth empty",
@@ -1245,6 +1255,8 @@
 							]
 						}
 					},
+					"status": "Bad Request",
+					"code": 400,
 					"_postman_previewlanguage": "json",
 					"header": [
 						{
